@@ -1,0 +1,288 @@
+{
+  "" : {
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherToday-master.dia",
+    "emit-module-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherToday-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherToday-master-emit-module.dia",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherToday-master.swiftdeps"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Managers/AutocompleteManager.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteManager.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteManager.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteManager.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteManager.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteManager.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteManager.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteManager.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteManager~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Managers/FavoritesManager.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesManager.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesManager.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesManager.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesManager.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesManager.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesManager.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesManager.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesManager~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Managers/LocationManager.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LocationManager.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LocationManager.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LocationManager.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LocationManager.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LocationManager.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LocationManager.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LocationManager.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LocationManager~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Managers/WeatherManager.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherManager.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherManager.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherManager.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherManager.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherManager.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherManager.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherManager.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherManager~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Models/AutocompleteModels.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteModels.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteModels.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteModels.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteModels.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteModels.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteModels.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteModels.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/AutocompleteModels~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Models/FavoritesModels.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesModels.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesModels.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesModels.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesModels.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesModels.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesModels.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesModels.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoritesModels~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Models/ResponseData.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ResponseData.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ResponseData.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ResponseData.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ResponseData.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ResponseData.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ResponseData.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ResponseData.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ResponseData~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/ActivityGuageChart.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ActivityGuageChart.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ActivityGuageChart.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ActivityGuageChart.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ActivityGuageChart.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ActivityGuageChart.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ActivityGuageChart.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ActivityGuageChart.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ActivityGuageChart~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/DayForecastRow.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/DayForecastRow.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/DayForecastRow.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/DayForecastRow.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/DayForecastRow.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/DayForecastRow.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/DayForecastRow.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/DayForecastRow.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/DayForecastRow~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/WeatherMetricCard.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricCard.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricCard.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricCard.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricCard.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricCard.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricCard.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricCard.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricCard~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/WeatherMetricItem.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricItem.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricItem.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricItem.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricItem.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricItem.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricItem.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricItem.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricItem~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/WeatherSummaryCard.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherSummaryCard.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherSummaryCard.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherSummaryCard.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherSummaryCard.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherSummaryCard.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherSummaryCard.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherSummaryCard.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherSummaryCard~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/ContentView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/FavoriteLocationsView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoriteLocationsView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoriteLocationsView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoriteLocationsView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoriteLocationsView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoriteLocationsView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoriteLocationsView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoriteLocationsView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/FavoriteLocationsView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/ForecastView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ForecastView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ForecastView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ForecastView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ForecastView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ForecastView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ForecastView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ForecastView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/ForecastView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/LoadingView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/SearchBar.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/TemperatureChartView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/TodayTabView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TodayTabView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TodayTabView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TodayTabView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TodayTabView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TodayTabView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TodayTabView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TodayTabView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TodayTabView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherContentView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherContentView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherContentView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherContentView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherContentView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherContentView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherContentView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherContentView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherContentView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherDataTabView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDataTabView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDataTabView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDataTabView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDataTabView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDataTabView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDataTabView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDataTabView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDataTabView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherDetailsView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDetailsView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDetailsView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDetailsView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDetailsView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDetailsView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDetailsView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDetailsView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherDetailsView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherMetricsView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricsView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricsView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricsView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricsView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricsView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricsView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricsView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherMetricsView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeeklyTabView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeeklyTabView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeeklyTabView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeeklyTabView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeeklyTabView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeeklyTabView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeeklyTabView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeeklyTabView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeeklyTabView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WelcomeView.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WelcomeView.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WelcomeView.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WelcomeView.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WelcomeView.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WelcomeView.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WelcomeView.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WelcomeView.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WelcomeView~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/WeatherTodayApp.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherTodayApp.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherTodayApp.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherTodayApp.dia",
+    "index-unit-output-path" : "/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherTodayApp.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherTodayApp.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherTodayApp.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherTodayApp.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/WeatherTodayApp~partial.swiftmodule"
+  }
+}

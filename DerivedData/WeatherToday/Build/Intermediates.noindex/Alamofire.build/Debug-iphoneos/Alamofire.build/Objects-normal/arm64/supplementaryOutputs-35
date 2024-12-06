@@ -1,0 +1,36 @@
+"/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/AFError.swift":
+  swift-dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.swiftdeps"
+  object: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.o"
+  const-values: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.swiftconstvalues"
+  diagnostics: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.dia"
+  dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.d"
+"/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Alamofire.swift":
+  dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.d"
+  object: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.o"
+  diagnostics: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.dia"
+  const-values: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.swiftconstvalues"
+  swift-dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.swiftdeps"
+"/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/DerivedSources/resource_bundle_accessor.swift":
+  const-values: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues"
+  diagnostics: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/resource_bundle_accessor.dia"
+  dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/resource_bundle_accessor.d"
+  swift-dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps"
+  object: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/resource_bundle_accessor.o"
+"/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/DataRequest.swift":
+  object: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DataRequest.o"
+  const-values: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DataRequest.swiftconstvalues"
+  dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DataRequest.d"
+  swift-dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DataRequest.swiftdeps"
+  diagnostics: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DataRequest.dia"
+"/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/DownloadRequest.swift":
+  swift-dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DownloadRequest.swiftdeps"
+  const-values: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DownloadRequest.swiftconstvalues"
+  diagnostics: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DownloadRequest.dia"
+  dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DownloadRequest.d"
+  object: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DownloadRequest.o"
+"/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/DataStreamRequest.swift":
+  dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DataStreamRequest.d"
+  object: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DataStreamRequest.o"
+  const-values: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DataStreamRequest.swiftconstvalues"
+  diagnostics: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DataStreamRequest.dia"
+  swift-dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DataStreamRequest.swiftdeps"

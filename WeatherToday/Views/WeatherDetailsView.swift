@@ -18,22 +18,23 @@ struct WeatherDetailsView: View {
     @State private var selectedTab = 0
     let weather: WeatherResponse
     let forecast15Day: TemperatureForecastResponse?
-    
+
     var body: some View {
         NavigationView {
+            
             TabView(selection: $selectedTab) {
                 TodayTabView(weather: weather)
                     .tabItem {
                         Label("TODAY", systemImage: "calendar")
                     }
                     .tag(0)
-                
+
                 WeeklyTabView(weather: weather, forecast15Day: forecast15Day)
                     .tabItem {
                         Label("WEEKLY", systemImage: "chart.xyaxis.line")
                     }
                     .tag(1)
-                
+
                 WeatherDataTabView(weather: weather)
                     .tabItem {
                         Label("WEATHER DATA", systemImage: "thermometer")
@@ -53,7 +54,7 @@ struct WeatherDetailsView: View {
                         }
                     }
                 }
-                
+
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
                         // Twitter share functionality will go here

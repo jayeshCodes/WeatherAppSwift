@@ -6,95 +6,94 @@
 //
 
 import Foundation
+import Alamofire
+import SwiftyJSON
 
-// MARK: - Autocomplete Manager
 class AutocompleteManager {
     private let baseUrl = "https://weatherapp-571-xyz.ue.r.appspot.com"
 
-    func getAutocompleteSuggestions(input: String) async throws -> [Prediction]
-    {
-        var components = URLComponents(
-            string: baseUrl + "/api/geocode/autocomplete")!
-        components.queryItems = [
-            URLQueryItem(name: "input", value: input)
-        ]
-
-        guard let url = components.url else {
-            throw AutocompleteError.invalidURL
-        }
-
-        do {
-            let (data, response) = try await URLSession.shared.data(from: url)
-
-            guard let httpResponse = response as? HTTPURLResponse,
-                (200...299).contains(httpResponse.statusCode)
-            else {
-                throw AutocompleteError.invalidResponse
-            }
-
-            do {
-                let decodedResponse = try JSONDecoder().decode(
-                    AutocompleteResponse.self, from: data)
-                return decodedResponse.predictions
-            } catch {
-                print("Decoding error: \(error)")
-                throw AutocompleteError.invalidData
-            }
-        } catch {
-            throw AutocompleteError.networkError(error)
+    func getAutocompleteSuggestions(input: String) async throws -> [Prediction] {
+        let parameters = ["input": input]
+        
+        return try await withCheckedThrowingContinuation { continuation in
+            AF.request("\(baseUrl)/api/geocode/autocomplete",
+                      method: .get,
+                      parameters: parameters)
+                .responseData { response in
+                    switch response.result {
+                    case .success(let data):
+                        do {
+                            let json = try JSON(data: data)
+                            
+                            // Parse predictions array
+                            var predictions: [Prediction] = []
+                            for predictionJson in json["predictions"].arrayValue {
+                                let structuredFormatting = StructuredFormatting(
+                                    mainText: predictionJson["structured_formatting"]["main_text"].stringValue,
+                                    secondaryText: predictionJson["structured_formatting"]["secondary_text"].stringValue
+                                )
+                                
+                                let prediction = Prediction(
+                                    description: predictionJson["description"].stringValue,
+                                    placeId: predictionJson["place_id"].stringValue,
+                                    structuredFormatting: structuredFormatting
+                                )
+                                predictions.append(prediction)
+                            }
+                            
+                            continuation.resume(returning: predictions)
+                        } catch {
+                            continuation.resume(throwing: AutocompleteError.invalidData)
+                        }
+                    case .failure(let error):
+                        continuation.resume(throwing: AutocompleteError.networkError(error))
+                    }
+                }
         }
     }
 
-    func getCoordinates(street: String = "", city: String, state: String)
-        async throws -> Coordinates
-    {
-        var components = URLComponents(
-            string: baseUrl + "/api/geocode/coordinates")!
-        components.queryItems = [
-            URLQueryItem(name: "street", value: street),
-            URLQueryItem(name: "city", value: city),
-            URLQueryItem(name: "state", value: state),
+    func getCoordinates(street: String = "", city: String, state: String) async throws -> Coordinates {
+        let parameters = [
+            "street": street,
+            "city": city,
+            "state": state
         ]
-
-        guard let url = components.url else {
-            throw AutocompleteError.invalidURL
-        }
-
-        do {
-            let (data, response) = try await URLSession.shared.data(from: url)
-
-            guard let httpResponse = response as? HTTPURLResponse,
-                (200...299).contains(httpResponse.statusCode)
-            else {
-                throw AutocompleteError.invalidResponse
-            }
-
-            do {
-                let geocodeResponse = try JSONDecoder().decode(
-                    GeocodeResponse.self, from: data)
-
-                guard let firstResult = geocodeResponse.results.first else {
-                    throw AutocompleteError.invalidData
+        
+        return try await withCheckedThrowingContinuation { continuation in
+            AF.request("\(baseUrl)/api/geocode/coordinates",
+                      method: .get,
+                      parameters: parameters)
+                .responseData { response in
+                    switch response.result {
+                    case .success(let data):
+                        do {
+                            let json = try JSON(data: data)
+                            
+                            guard let firstResult = json["results"].array?.first else {
+                                continuation.resume(throwing: AutocompleteError.invalidData)
+                                return
+                            }
+                            
+                            let location = GeoLocation(
+                                lat: firstResult["geometry"]["location"]["lat"].doubleValue,
+                                lng: firstResult["geometry"]["location"]["lng"].doubleValue
+                            )
+                            
+                            let coordinates = Coordinates(location: location)
+                            continuation.resume(returning: coordinates)
+                        } catch {
+                            continuation.resume(throwing: AutocompleteError.invalidData)
+                        }
+                    case .failure(let error):
+                        continuation.resume(throwing: AutocompleteError.networkError(error))
+                    }
                 }
-
-                // Convert Google's format to our internal Coordinates format
-                return Coordinates(location: firstResult.geometry.location)
-
-            } catch {
-                print("Decoding error: \(error)")
-                throw AutocompleteError.invalidData
-            }
-        } catch {
-            throw AutocompleteError.networkError(error)
         }
     }
 
     // Helper method to extract city and state from a prediction
-    func extractLocationInfo(from prediction: Prediction) -> (
-        city: String, state: String
-    ) {
-        let components = prediction.structuredFormatting.secondaryText
-            .components(separatedBy: ", ")
+    func extractLocationInfo(from prediction: Prediction) -> (city: String, state: String) {
+        let components = prediction.structuredFormatting.secondaryText.components(separatedBy: ", ")
         let state = components.first ?? ""
         return (prediction.structuredFormatting.mainText, state)
     }

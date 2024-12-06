@@ -1,0 +1,18 @@
+"/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/SearchBar.swift":
+  object: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.o"
+  dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.d"
+  swift-dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.swiftdeps"
+  diagnostics: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.dia"
+  const-values: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/SearchBar.swiftconstvalues"
+"/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/LoadingView.swift":
+  dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.d"
+  const-values: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.swiftconstvalues"
+  swift-dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.swiftdeps"
+  diagnostics: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.dia"
+  object: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/LoadingView.o"
+"/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/TemperatureChartView.swift":
+  object: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.o"
+  diagnostics: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.dia"
+  swift-dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.swiftdeps"
+  dependencies: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.d"
+  const-values: "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/WeatherToday.build/Debug-iphoneos/WeatherToday.build/Objects-normal/arm64/TemperatureChartView.swiftconstvalues"

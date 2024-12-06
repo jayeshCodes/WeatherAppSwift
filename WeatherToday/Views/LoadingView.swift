@@ -6,16 +6,28 @@
 //
 
 import SwiftUI
+import SwiftSpinner
 
 struct LoadingView: View {
+    let title: String
+    
+    init(_ title: String = "Loading...") {
+        self.title = title
+    }
+    
     var body: some View {
-        ProgressView()
-            .padding()
-            .progressViewStyle(CircularProgressViewStyle(tint: .white))
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        Color.clear
+            .onAppear {
+                SwiftSpinner.show(title)
+            }
+            .onDisappear {
+                SwiftSpinner.hide()
+            }
     }
 }
 
-#Preview {
-    LoadingView()
+struct LoadingView_Previews: PreviewProvider {
+    static var previews: some View {
+        LoadingView()
+    }
 }

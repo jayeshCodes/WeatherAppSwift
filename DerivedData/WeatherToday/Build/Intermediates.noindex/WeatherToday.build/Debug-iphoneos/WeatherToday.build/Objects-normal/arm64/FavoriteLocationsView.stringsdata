@@ -1,0 +1,16 @@
+{
+  "source": "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/FavoriteLocationsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "No favorite locations",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 21
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "source": "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/WeatherSummaryCard.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld°F",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 21
+        }
+      }
+    ]
+  },
+  "version": 1
+}

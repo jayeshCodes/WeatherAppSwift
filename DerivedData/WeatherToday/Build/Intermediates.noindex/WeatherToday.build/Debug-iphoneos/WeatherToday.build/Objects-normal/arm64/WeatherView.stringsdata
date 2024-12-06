@@ -1,0 +1,40 @@
+{
+  "source": "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Current",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Favorites",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter City Name",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "No favorite locations",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 182
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Toast
+import SwiftSpinner
 
 struct WeatherView: View {
     let weather: WeatherResponse
@@ -21,36 +22,43 @@ struct WeatherView: View {
     @State private var toastMessage = ""
     @State private var selectedTab = 0
     @State private var favoriteWeatherData: [String: WeatherResponse] = [:]
+    @State private var isLoading = false
     let weatherManager = WeatherManager()
     let autocompleteManager = AutocompleteManager()
-    
+
     // Debounce timer for search
     @State private var searchDebounceTimer: Timer?
-    
+
     var body: some View {
-        TabView(selection: $selectedTab) {
-            // Current Location Tab
-            currentLocationView
-                .tabItem {
-                    Label("Current", systemImage: "location.fill")
-                }
-                .tag(0)
+        ZStack {
+            // Background Image
+            Image("App_background")
+                .resizable()
+                .edgesIgnoringSafeArea(.all)
+                .scaledToFill()
             
-            // Favorites Tab
-            favoritesView
-                .tabItem {
-                    Label("Favorites", systemImage: "star.fill")
-                }
-                .tag(1)
+            TabView(selection: $selectedTab) {
+                // Current Location Tab
+                currentLocationView
+                    .tabItem {
+                        Label("Current", systemImage: "location.fill")
+                    }
+                    .tag(0)
+
+                // Favorites Tab
+                favoritesView
+                    .tabItem {
+                        Label("Favorites", systemImage: "star.fill")
+                    }
+                    .tag(1)
+            }
         }
         .onChange(of: showToast) { oldValue, newValue in
             if newValue {
-                // Show toast using Toast-Swift
                 if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-                   let window = windowScene.windows.first {
+                    let window = windowScene.windows.first {
                     window.makeToast(toastMessage, duration: 2.0, position: .bottom)
                 }
-                // Reset toast state after showing
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.1) {
                     showToast = false
                 }
@@ -60,9 +68,7 @@ struct WeatherView: View {
             await loadFavoriteWeatherData()
         }
     }
-    
-    // MARK: - Views
-    
+
     private var currentLocationView: some View {
         ZStack(alignment: .top) {
             VStack(spacing: 16) {
@@ -76,9 +82,11 @@ struct WeatherView: View {
                             .onChange(of: searchText) { oldValue, newValue in
                                 searchDebounceTimer?.invalidate()
                                 showPredictions = !searchText.isEmpty
-                                
+
                                 if !searchText.isEmpty {
-                                    searchDebounceTimer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false) { _ in
+                                    searchDebounceTimer = Timer.scheduledTimer(
+                                        withTimeInterval: 0.5, repeats: false
+                                    ) { _ in
                                         Task {
                                             await fetchPredictions()
                                         }
@@ -91,7 +99,7 @@ struct WeatherView: View {
                     .padding(10)
                     .background(Color(.systemGray6))
                     .cornerRadius(10)
-                    
+
                     // Predictions List
                     if showPredictions && !predictions.isEmpty {
                         ScrollView {
@@ -126,11 +134,10 @@ struct WeatherView: View {
                     }
                 }
                 .padding(.horizontal)
-                
+
                 // Weather Content
                 if !showPredictions {
                     if let selectedWeather = selectedLocationWeather {
-                        // Display selected location weather with favorite button
                         VStack {
                             HStack {
                                 Spacer()
@@ -148,15 +155,15 @@ struct WeatherView: View {
                             WeatherContentView(weather: selectedWeather, forecast15Day: forecast15Day)
                         }
                     } else {
-                        // Display current location weather
                         WeatherContentView(weather: weather, forecast15Day: forecast15Day)
                     }
                 }
-                
+
                 Spacer()
             }
         }
         .task {
+            SwiftSpinner.show("Loading forecast...")
             do {
                 forecast15Day = try await weatherManager.get15DayForecast(
                     latitude: Double(weather.location.lat) ?? 0,
@@ -165,9 +172,10 @@ struct WeatherView: View {
             } catch {
                 print("Error fetching 15-day forecast: \(error)")
             }
+            SwiftSpinner.hide()
         }
     }
-    
+
     private var favoritesView: some View {
         Group {
             if favoritesManager.favorites.isEmpty {
@@ -177,15 +185,15 @@ struct WeatherView: View {
                 TabView {
                     ForEach(favoritesManager.favorites) { favorite in
                         if let weatherData = favoriteWeatherData["\(favorite.city),\(favorite.state)"] {
-                            WeatherContentView(
-                                weather: weatherData,
-                                forecast15Day: nil
-                            )
+                            WeatherContentView(weather: weatherData, forecast15Day: nil)
                         } else {
-                            ProgressView()
-                                .task {
+                            Color.clear.onAppear {
+                                Task {
+                                    SwiftSpinner.show("Loading weather data...")
                                     await loadWeatherForFavorite(favorite)
+                                    SwiftSpinner.hide()
                                 }
+                            }
                         }
                     }
                 }
@@ -194,10 +202,11 @@ struct WeatherView: View {
             }
         }
     }
-    
+
     // MARK: - Private Methods
-    
+
     private func fetchPredictions() async {
+        SwiftSpinner.show("Searching...")
         do {
             let newPredictions = try await autocompleteManager.getAutocompleteSuggestions(input: searchText)
             await MainActor.run {
@@ -209,85 +218,98 @@ struct WeatherView: View {
                 predictions = []
             }
         }
+        SwiftSpinner.hide()
     }
-    
+
     private func handleLocationSelection(city: String, state: String) async {
-        // Clear search and hide predictions
         await MainActor.run {
             searchText = ""
             showPredictions = false
-            selectedLocationWeather = nil // Clear previous selection while loading
+            selectedLocationWeather = nil
         }
+
+        SwiftSpinner.show("Fetching weather for \(city)...")
         
         do {
-            // 1. Get coordinates for the selected city
             let coordinates = try await autocompleteManager.getCoordinates(city: city, state: state)
-            
-            // 2. Fetch weather data using coordinates
             let weatherData = try await weatherManager.getDailyForecast(
                 latitude: coordinates.lat,
                 longitude: coordinates.lon
             )
-            
-            // 3. Fetch 15-day forecast
             let newForecast15Day = try await weatherManager.get15DayForecast(
                 latitude: coordinates.lat,
                 longitude: coordinates.lon
             )
-            
-            // 4. Update UI with new data
+
             await MainActor.run {
                 selectedLocationWeather = weatherData
                 forecast15Day = newForecast15Day
             }
         } catch {
             print("Error fetching weather data: \(error)")
-            // Handle error appropriately (show alert, etc.)
         }
+        
+        SwiftSpinner.hide()
     }
-    
+
     private func toggleFavorite(_ weatherData: WeatherResponse) {
         let city = weatherData.location.city
         let state = weatherData.location.state
-        
-        if isFavorite(weatherData) {
-            favoritesManager.removeFavorite(for: city, state: state)
-            toastMessage = "\(city) removed from favorites"
-        } else {
-            favoritesManager.addFavorite(
-                city: city,
-                state: state,
-                lat: weatherData.location.lat,
-                lon: weatherData.location.lon
-            )
-            toastMessage = "\(city) added to favorites"
-            Task {
-                await loadFavoriteWeatherData()
+
+        Task {
+            SwiftSpinner.show("Updating favorites...")
+            
+            let isFavorite = await favoritesManager.checkFavorite(city: city, state: state)
+
+            if isFavorite {
+                if let favorite = favoritesManager.favorites.first(where: {
+                    $0.city == city && $0.state == state
+                }) {
+                    let success = await favoritesManager.removeFavorite(id: favorite.id)
+                    if success {
+                        toastMessage = "\(city) removed from favorites"
+                        showToast = true
+                    }
+                }
+            } else {
+                let success = await favoritesManager.addFavorite(city: city, state: state)
+                if success {
+                    toastMessage = "\(city) added to favorites"
+                    showToast = true
+                    await loadFavoriteWeatherData()
+                }
             }
+            
+            SwiftSpinner.hide()
         }
-        
-        showToast = true
     }
-    
+
     private func isFavorite(_ weatherData: WeatherResponse) -> Bool {
-        favoritesManager.isFavorite(
-            city: weatherData.location.city,
-            state: weatherData.location.state
-        )
+        favoritesManager.favorites.contains { favorite in
+            favorite.city == weatherData.location.city && favorite.state == weatherData.location.state
+        }
     }
-    
+
     private func loadFavoriteWeatherData() async {
+        SwiftSpinner.show("Loading favorites...")
         for favorite in favoritesManager.favorites {
             await loadWeatherForFavorite(favorite)
         }
+        SwiftSpinner.hide()
     }
-    
-    private func loadWeatherForFavorite(_ favorite: FavoriteLocation) async {
+
+    private func loadWeatherForFavorite(_ favorite: Favorite) async {
         do {
-            let weather = try await weatherManager.getDailyForecast(
-                latitude: Double(favorite.lat) ?? 0,
-                longitude: Double(favorite.lon) ?? 0
+            let coordinates = try await autocompleteManager.getCoordinates(
+                city: favorite.city,
+                state: favorite.state
             )
+
+            let weather = try await weatherManager.getDailyForecast(
+                latitude: coordinates.lat,
+                longitude: coordinates.lon
+            )
+
             await MainActor.run {
                 favoriteWeatherData["\(favorite.city),\(favorite.state)"] = weather
             }
@@ -296,6 +318,7 @@ struct WeatherView: View {
         }
     }
 }
+
 
 // Helper Functions
 func getWeatherIconName(_ code: Int) -> String {

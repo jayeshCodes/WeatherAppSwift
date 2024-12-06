@@ -1,0 +1,40 @@
+{
+  "source": "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherDetailsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "TODAY",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "WEEKLY",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "WEATHER DATA",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Weather",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 53
+        }
+      }
+    ]
+  },
+  "version": 1
+}

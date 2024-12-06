@@ -10,6 +10,9 @@
 		E16D3E142D0269920055224C /* SwiftSpinner in Frameworks */ = {isa = PBXBuildFile; productRef = E16D3E132D0269920055224C /* SwiftSpinner */; };
 		E16D3E252D02B2600055224C /* Highcharts in Frameworks */ = {isa = PBXBuildFile; productRef = E16D3E242D02B2600055224C /* Highcharts */; };
 		E16D3E382D02C56A0055224C /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = E16D3E372D02C56A0055224C /* Toast */; };
+		E1A48AA92D02D56800E9909B /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E1A48AA82D02D56800E9909B /* AlamofireDynamic */; };
+		E1A48AAA2D02D66C00E9909B /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = E1A48AA82D02D56800E9909B /* AlamofireDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E1ACC5B22D02D1EB00378AC9 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = E1ACC5B12D02D1EB00378AC9 /* SwiftyJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,20 @@
 			remoteInfo = WeatherToday;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1A48AAB2D02D66C00E9909B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E1A48AAA2D02D66C00E9909B /* AlamofireDynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E11503C32D022AA20010A0F4 /* WeatherToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1ACC5B22D02D1EB00378AC9 /* SwiftyJSON in Frameworks */,
 				E16D3E382D02C56A0055224C /* Toast in Frameworks */,
+				E1A48AA92D02D56800E9909B /* AlamofireDynamic in Frameworks */,
 				E16D3E142D0269920055224C /* SwiftSpinner in Frameworks */,
 				E16D3E252D02B2600055224C /* Highcharts in Frameworks */,
 			);
@@ -111,6 +130,7 @@
 				E11503BF2D022AA20010A0F4 /* Sources */,
 				E11503C02D022AA20010A0F4 /* Frameworks */,
 				E11503C12D022AA20010A0F4 /* Resources */,
+				E1A48AAB2D02D66C00E9909B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +144,8 @@
 				E16D3E132D0269920055224C /* SwiftSpinner */,
 				E16D3E242D02B2600055224C /* Highcharts */,
 				E16D3E372D02C56A0055224C /* Toast */,
+				E1ACC5B12D02D1EB00378AC9 /* SwiftyJSON */,
+				E1A48AA82D02D56800E9909B /* AlamofireDynamic */,
 			);
 			productName = WeatherToday;
 			productReference = E11503C32D022AA20010A0F4 /* WeatherToday.app */;
@@ -211,6 +233,8 @@
 				E16D3E122D0269920055224C /* XCRemoteSwiftPackageReference "SwiftSpinner" */,
 				E16D3E232D02B2600055224C /* XCRemoteSwiftPackageReference "highcharts-ios" */,
 				E16D3E362D02C56A0055224C /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				E1ACC5B02D02D1EB00378AC9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				E1A48AA72D02D56800E9909B /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E11503C42D022AA20010A0F4 /* Products */;
@@ -324,6 +348,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -387,6 +412,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -603,6 +629,22 @@
 				minimumVersion = 5.1.1;
 			};
 		};
+		E1A48AA72D02D56800E9909B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.10.0;
+			};
+		};
+		E1ACC5B02D02D1EB00378AC9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -620,6 +662,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E16D3E362D02C56A0055224C /* XCRemoteSwiftPackageReference "Toast-Swift" */;
 			productName = Toast;
+		};
+		E1A48AA82D02D56800E9909B /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1A48AA72D02D56800E9909B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		E1ACC5B12D02D1EB00378AC9 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1ACC5B02D02D1EB00378AC9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

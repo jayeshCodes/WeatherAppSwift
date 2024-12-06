@@ -1,0 +1,9 @@
+version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
+options: "ec3eead7c556305a5dda5d5d9e0769f34aeb83a35c04c78df29f699cc3a497d7"
+build_start_time: [1733467519, 908614000]
+build_end_time: [1733467524, 872659000]
+inputs:
+  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift"
+  : [1733467324, 996146874]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/SwiftyJSON.build/Debug-iphoneos/SwiftyJSON.build/DerivedSources/resource_bundle_accessor.swift"
+  : [1733467519, 857034029]

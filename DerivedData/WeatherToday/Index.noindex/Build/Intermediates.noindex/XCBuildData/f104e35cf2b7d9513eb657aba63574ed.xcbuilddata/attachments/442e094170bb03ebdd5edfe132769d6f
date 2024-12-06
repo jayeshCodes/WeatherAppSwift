@@ -1,0 +1,93 @@
+{
+  "" : {
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/WeatherToday.build/Debug-iphonesimulator/WeatherToday.build/Objects-normal/arm64/WeatherToday-master.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/WeatherToday.build/Debug-iphonesimulator/WeatherToday.build/Objects-normal/arm64/WeatherToday-master.dia",
+    "emit-module-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/WeatherToday.build/Debug-iphonesimulator/WeatherToday.build/Objects-normal/arm64/WeatherToday-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/WeatherToday.build/Debug-iphonesimulator/WeatherToday.build/Objects-normal/arm64/WeatherToday-master-emit-module.dia",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/WeatherToday.build/Debug-iphonesimulator/WeatherToday.build/Objects-normal/arm64/WeatherToday-master.swiftdeps"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/WeatherToday.build/Debug-iphonesimulator/WeatherToday.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Managers/AutocompleteManager.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Managers/FavoritesManager.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Managers/LocationManager.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Managers/WeatherManager.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Models/AutocompleteModels.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Models/FavoritesModels.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Models/ResponseData.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/ActivityGuageChart.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/DayForecastRow.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/WeatherMetricCard.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/WeatherMetricItem.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/WeatherSummaryCard.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/ContentView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/FavoriteLocationsView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/ForecastView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/LoadingView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/SearchBar.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/TemperatureChartView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/TodayTabView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherContentView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherDataTabView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherDetailsView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherMetricsView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeatherView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WeeklyTabView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/WelcomeView.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/WeatherTodayApp.swift" : {
+
+  }
+}

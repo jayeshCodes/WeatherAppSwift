@@ -7,18 +7,23 @@
 
 import Foundation
 
-struct FavoriteLocation: Codable, Identifiable {
-    let id: UUID
+struct FavoriteResponse: Codable {
+    let status: String
+    let data: [Favorite]
+}
+
+struct Favorite: Codable, Identifiable {
+    let id: String
     let city: String
     let state: String
-    let lat: String
-    let lon: String
-    
-    init(id: UUID = UUID(), city: String, state: String, lat: String, lon: String) {
-        self.id = id
-        self.city = city
-        self.state = state
-        self.lat = lat
-        self.lon = lon
-    }
+}
+
+struct CheckFavoriteResponse: Codable {
+    let isFavorite: Bool
+    let favoriteId: String?
+}
+
+struct ApiResponse<T: Codable>: Codable {
+    let status: String
+    let data: T
 }

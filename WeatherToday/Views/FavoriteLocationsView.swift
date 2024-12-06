@@ -32,7 +32,7 @@ struct FavoriteLocationsView: View {
                                 .tag(index)
                                 .onAppear {
                                     Task {
-                                        await loadWeatherData(for: favorite)
+//                                        await loadWeatherData(for: favorite)
                                     }
                                 }
                         }
@@ -43,29 +43,29 @@ struct FavoriteLocationsView: View {
             }
         }
         .onAppear {
-            loadAllWeatherData()
+//            loadAllWeatherData()
         }
     }
     
-    private func loadAllWeatherData() {
-        Task {
-            for favorite in favoritesManager.favorites {
-                await loadWeatherData(for: favorite)
-            }
-        }
-    }
+//    private func loadAllWeatherData() {
+//        Task {
+//            for favorite in favoritesManager.favorites {
+//                await loadWeatherData(for: favorite)
+//            }
+//        }
+//    }
     
-    private func loadWeatherData(for favorite: FavoriteLocation) async {
-        do {
-            let weather = try await weatherManager.getDailyForecast(
-                latitude: Double(favorite.lat) ?? 0,
-                longitude: Double(favorite.lon) ?? 0
-            )
-            await MainActor.run {
-                weatherData["\(favorite.city),\(favorite.state)"] = weather
-            }
-        } catch {
-            print("Error loading weather for favorite: \(error)")
-        }
-    }
+//    private func loadWeatherData(for favorite: FavoriteLocation) async {
+//        do {
+//            let weather = try await weatherManager.getDailyForecast(
+//                latitude: Double(favorite.lat) ?? 0,
+//                longitude: Double(favorite.lon) ?? 0
+//            )
+//            await MainActor.run {
+//                weatherData["\(favorite.city),\(favorite.state)"] = weather
+//            }
+//        } catch {
+//            print("Error loading weather for favorite: \(error)")
+//        }
+//    }
 }

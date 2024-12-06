@@ -33,6 +33,10 @@ struct WeatherValues: Codable {
     let windSpeed: Double
     let precipitationProbability: Double
     let weatherCode: Int
+    let sunriseTime: String
+    let sunsetTime: String
+    let visibility: Double
+    let pressure: Double
 }
 
 // Temperature Forecast Models

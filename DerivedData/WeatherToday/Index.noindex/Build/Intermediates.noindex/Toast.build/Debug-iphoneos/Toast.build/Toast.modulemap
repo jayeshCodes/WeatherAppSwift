@@ -1,4 +1,0 @@
-module Toast {
-header "Toast-Swift.h"
-export *
-}

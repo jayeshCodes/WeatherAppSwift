@@ -1,7 +1,0 @@
-version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
-options: "7da8639c9f90a70a594745e1d9cc22b70f526bf876fe053ca0166f80523155b8"
-build_start_time: [1733500357, 393234000]
-build_end_time: [1733500360, 813863000]
-inputs:
-  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/SwiftSpinner/Sources/SwiftSpinner/SwiftSpinner.swift"
-  : [1733499969, 130612081]

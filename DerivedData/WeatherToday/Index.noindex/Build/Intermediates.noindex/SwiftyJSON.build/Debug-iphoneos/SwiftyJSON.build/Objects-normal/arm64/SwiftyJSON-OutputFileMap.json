@@ -6,10 +6,10 @@
     "emit-module-diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/SwiftyJSON.build/Debug-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON-master-emit-module.dia",
     "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/SwiftyJSON.build/Debug-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON-master.swiftdeps"
   },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift" : {
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/SwiftyJSON.build/Debug-iphoneos/SwiftyJSON.build/DerivedSources/resource_bundle_accessor.swift" : {
 
   },
-  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/SwiftyJSON.build/Debug-iphoneos/SwiftyJSON.build/DerivedSources/resource_bundle_accessor.swift" : {
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift" : {
 
   }
 }

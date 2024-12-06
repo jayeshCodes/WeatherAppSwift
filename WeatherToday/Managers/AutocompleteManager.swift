@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class AutocompleteManager {
+class AutocompleteManager: ObservableObject {
     private let baseUrl = "https://weatherapp-571-xyz.ue.r.appspot.com"
 
     func getAutocompleteSuggestions(input: String) async throws -> [Prediction] {

@@ -26,7 +26,7 @@
 		</data>
 		<key>Frameworks/AlamofireDynamic.framework/AlamofireDynamic</key>
 		<data>
-		CxgKHduRmMpYiuF/qmTnNIb5F30=
+		CVAQhi2cO/ljklZvbyCV7+m0lYE=
 		</data>
 		<key>Frameworks/AlamofireDynamic.framework/Info.plist</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Frameworks/Highcharts.framework/Highcharts</key>
 		<data>
-		NkmmnMDkh/WFQMuL2nZfgKoB4Gs=
+		aKLjRPza7rNzM/5xWjMpwFd3hyc=
 		</data>
 		<key>Frameworks/Highcharts.framework/Info.plist</key>
 		<data>
@@ -2914,7 +2914,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eiWukFEr69Lhq+uN9S9w5KTZZRE=
+		6K+NPuqAaue8E8ufO1Y5XTmZKvU=
+		</data>
+		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<data>
+		c7XQUbIuTykmUaJJHtqpg9QHkFg=
+		</data>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<data>
+		n2t8gsDpfE6XkhG31p7IQJRxTxU=
+		</data>
+		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<data>
+		ZVgM1+KwZcZnwhgaI0F7Bt1ba2c=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -2938,11 +2950,11 @@
 		</data>
 		<key>WeatherToday.debug.dylib</key>
 		<data>
-		XhpBdfDRiluAFTjnzdle3R7ExAY=
+		RR6qQ8X9F1RRHcoo5Au+5V7IIoA=
 		</data>
 		<key>__preview.dylib</key>
 		<data>
-		CFTLCg7tQ0VUS5jamoaRRaER7NU=
+		CEc4PEUTEVREufG+DFjf0XvMxGM=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -2990,7 +3002,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9flXC7kjI21FZ3c5aSp1EM6i4LaXga2P7A6RtlELZD8=
+			qEqRaEi/X2gwLHAXA1vkae6ul6KaY0ZnfVbzCJDy/Bc=
 			</data>
 		</dict>
 		<key>Frameworks/AlamofireDynamic.framework/Info.plist</key>
@@ -3018,7 +3030,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dhnjO3PE/NUU0iS6hx3/GZc0aAglkSnP8Y6xYmubhys=
+			Q+V0GoE/dynHZ75FBUNkeg0Ueaq8PJ8TyxfUyC7OJpM=
 			</data>
 		</dict>
 		<key>Frameworks/Highcharts.framework/Info.plist</key>
@@ -8040,6 +8052,27 @@
 			cX0anyU/blkX//Ukcl8Fr3zmZzzO0ylcRpe2V15wiow=
 			</data>
 		</dict>
+		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dJSsKW+6iQ8iPn+cgsy6FvcaEceXFaf0saseT6jERVE=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VPNjf2cf66XxnoLsT0p/tEi7PPwPsYDwiapXH8jwU+I=
+			</data>
+		</dict>
 		<key>SwiftyJSON_SwiftyJSON.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -8072,14 +8105,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MwUseX8zuHTUt4Eb6xeQ9RUsaOqVjkfWY/tkF7F9llI=
+			Jmp+uUJqcM037+luINq6QMBrTzDuxHwDHD1pwZtis8g=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3jiVseQuSyK0nf3zGpgH+QtQEbCDe3/rrRpxiSRG7O0=
+			UxjCuEbXkFWqQfxLQIM4yk3yGBMlhoTP7BQC4mrCDwA=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

@@ -1,24 +1,5 @@
 {
   "source": "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/DayForecastRow.swift",
-  "tables": {
-    "Localizable": [
-      {
-        "comment": "",
-        "key": "%lld°",
-        "location": {
-          "startingColumn": 18,
-          "startingLine": 23
-        }
-      },
-      {
-        "comment": "",
-        "key": "%lld°",
-        "location": {
-          "startingColumn": 18,
-          "startingLine": 26
-        }
-      }
-    ]
-  },
+  "tables": {},
   "version": 1
 }

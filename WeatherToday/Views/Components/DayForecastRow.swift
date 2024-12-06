@@ -8,23 +8,45 @@
 import SwiftUI
 
 struct DayForecastRow: View {
-    let timeline: TemperatureTimeline
+    let timeline: Timeline
+    
+    private func formatTimeOnly(_ dateString: String) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        
+        guard let date = formatter.date(from: dateString) else { return "" }
+        
+        formatter.dateFormat = "HH:mm"
+        return formatter.string(from: date)
+    }
 
     var body: some View {
         HStack {
+            // Date
             Text(formatDate(timeline.time))
                 .frame(width: 100, alignment: .leading)
-
-            Image(systemName: "sun.max.fill")
+            
+            // Weather icon
+            Image(systemName: getWeatherIconName(timeline.values.weatherCode))
                 .frame(width: 30)
-
+            
             Spacer()
-
-            Text("\(Int(timeline.values.temperatureMax))°")
-                .frame(width: 40)
-
-            Text("\(Int(timeline.values.temperatureMin))°")
-                .frame(width: 40)
+            
+            // Sunrise info
+            Image("sun-rise")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 20, height: 20)
+            Text(formatTimeOnly(timeline.values.sunriseTime))
+                .frame(width: 50)
+            
+            // Sunset info
+            Image("sun-set")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 20, height: 20)
+            Text(formatTimeOnly(timeline.values.sunsetTime))
+                .frame(width: 50)
         }
         .padding(.vertical, 8)
         .padding(.horizontal)

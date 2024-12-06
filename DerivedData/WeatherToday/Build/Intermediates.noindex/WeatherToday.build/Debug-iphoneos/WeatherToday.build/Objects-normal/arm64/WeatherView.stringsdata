@@ -7,7 +7,7 @@
         "key": "Current",
         "location": {
           "startingColumn": 31,
-          "startingLine": 44
+          "startingLine": 97
         }
       },
       {
@@ -15,23 +15,15 @@
         "key": "Favorites",
         "location": {
           "startingColumn": 31,
-          "startingLine": 51
-        }
-      },
-      {
-        "comment": "",
-        "key": "Enter City Name",
-        "location": {
-          "startingColumn": 35,
-          "startingLine": 80
+          "startingLine": 103
         }
       },
       {
         "comment": "",
         "key": "No favorite locations",
         "location": {
-          "startingColumn": 22,
-          "startingLine": 182
+          "startingColumn": 26,
+          "startingLine": 254
         }
       }
     ]

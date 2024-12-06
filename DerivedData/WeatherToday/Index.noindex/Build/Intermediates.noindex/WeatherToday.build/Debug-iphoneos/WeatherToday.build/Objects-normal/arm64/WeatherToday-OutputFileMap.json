@@ -30,10 +30,16 @@
   "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Models/ResponseData.swift" : {
 
   },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/ViewModifiers/BackgroundModifier.swift" : {
+
+  },
   "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/ActivityGuageChart.swift" : {
 
   },
   "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/DayForecastRow.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/UISearchBarWrapper.swift" : {
 
   },
   "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/Components/WeatherMetricCard.swift" : {
@@ -54,10 +60,10 @@
   "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/ForecastView.swift" : {
 
   },
-  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/LoadingView.swift" : {
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/LaunchView.swift" : {
 
   },
-  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/SearchBar.swift" : {
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/LoadingView.swift" : {
 
   },
   "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/TemperatureChartView.swift" : {

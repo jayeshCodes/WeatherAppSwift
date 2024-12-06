@@ -9,10 +9,11 @@
 	<string>Highcharts</string>
 	<string>SwiftUI</string>
 	<string>XCTest</string>
-	<string>Foundation</string>
 	<string>CoreLocation</string>
-	<string>Testing</string>
+	<string>UIKit</string>
+	<string>Foundation</string>
 	<string>SwiftData</string>
+	<string>Testing</string>
 	<string>SwiftSpinner</string>
 	<string>WeatherToday</string>
 </array>

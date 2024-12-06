@@ -6,133 +6,133 @@
     "emit-module-diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire-master-emit-module.dia",
     "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire-master.swiftdeps"
   },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Alamofire.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/AFError.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/DataRequest.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/DataStreamRequest.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/DownloadRequest.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/HTTPHeaders.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/HTTPMethod.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/Notifications.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/ParameterEncoder.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/ParameterEncoding.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/Protected.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/Request.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/RequestTaskMap.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/Response.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/Session.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/SessionDelegate.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/URLConvertible+URLRequestConvertible.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/UploadRequest.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/WebSocketRequest.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/DispatchQueue+Alamofire.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/OperationQueue+Alamofire.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/Result+Alamofire.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/StringEncoding+Alamofire.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/URLRequest+Alamofire.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/URLSessionConfiguration+Alamofire.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/AlamofireExtended.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/AuthenticationInterceptor.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/CachedResponseHandler.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/Combine.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/Concurrency.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/EventMonitor.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/MultipartFormData.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/MultipartUpload.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/NetworkReachabilityManager.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/RedirectHandler.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/RequestCompression.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/RequestInterceptor.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/ResponseSerialization.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/RetryPolicy.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/ServerTrustEvaluation.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/URLEncodedFormEncoder.swift" : {
-
-  },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/Validation.swift" : {
-
-  },
   "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/DerivedSources/resource_bundle_accessor.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Alamofire.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/AFError.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/DataRequest.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/DataStreamRequest.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/DownloadRequest.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/HTTPHeaders.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/HTTPMethod.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/Notifications.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/ParameterEncoder.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/ParameterEncoding.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/Protected.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/Request.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/RequestTaskMap.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/Response.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/Session.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/SessionDelegate.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/URLConvertible+URLRequestConvertible.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/UploadRequest.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/WebSocketRequest.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/DispatchQueue+Alamofire.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/OperationQueue+Alamofire.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/Result+Alamofire.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/StringEncoding+Alamofire.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/URLRequest+Alamofire.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/URLSessionConfiguration+Alamofire.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/AlamofireExtended.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/AuthenticationInterceptor.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/CachedResponseHandler.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/Combine.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/Concurrency.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/EventMonitor.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/MultipartFormData.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/MultipartUpload.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/NetworkReachabilityManager.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/RedirectHandler.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/RequestCompression.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/RequestInterceptor.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/ResponseSerialization.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/RetryPolicy.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/ServerTrustEvaluation.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/URLEncodedFormEncoder.swift" : {
+
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/Validation.swift" : {
 
   }
 }

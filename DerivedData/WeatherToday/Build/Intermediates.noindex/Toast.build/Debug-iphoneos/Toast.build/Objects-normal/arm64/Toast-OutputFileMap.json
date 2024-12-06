@@ -5,16 +5,6 @@
     "emit-module-diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast-master-emit-module.dia",
     "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast-master.swiftdeps"
   },
-  "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Toast-Swift/Toast/Toast.swift" : {
-    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.swiftconstvalues",
-    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.d",
-    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.dia",
-    "index-unit-output-path" : "/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.o",
-    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.bc",
-    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.o",
-    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.swiftdeps",
-    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast~partial.swiftmodule"
-  },
   "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/DerivedSources/resource_bundle_accessor.swift" : {
     "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues",
     "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/resource_bundle_accessor.d",
@@ -24,5 +14,15 @@
     "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/resource_bundle_accessor.o",
     "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps",
     "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/resource_bundle_accessor~partial.swiftmodule"
+  },
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Toast-Swift/Toast/Toast.swift" : {
+    "const-values" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.swiftconstvalues",
+    "dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.d",
+    "diagnostics" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.dia",
+    "index-unit-output-path" : "/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.o",
+    "llvm-bc" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.bc",
+    "object" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.o",
+    "swift-dependencies" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast.swiftdeps",
+    "swiftmodule" : "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/Objects-normal/arm64/Toast~partial.swiftmodule"
   }
 }

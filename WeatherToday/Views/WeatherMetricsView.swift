@@ -18,15 +18,15 @@ struct WeatherMetricsView: View {
                 label: "Humidity")
             WeatherMetricItem(
                 icon: "wind",
-                value: String(format: "%.2f mph", weather.timelines[0].values.windSpeed),
+                value: String(format: "%.1f mph", weather.timelines[0].values.windSpeed),
                 label: "Wind Speed")
             WeatherMetricItem(
                 icon: "eye.fill",
-                value: "9.94 mi",
+                value: String(format: "%.1f mi", weather.timelines[0].values.visibility),
                 label: "Visibility")
             WeatherMetricItem(
                 icon: "gauge",
-                value: "29.92 inHg",
+                value: String(format: "%.2f inHg", weather.timelines[0].values.pressure),
                 label: "Pressure")
         }
         .padding()

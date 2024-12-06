@@ -1,91 +1,87 @@
 version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
 options: "a94ff9635091955aa32d40c50ac08beaf2cda95423dce4bc97797105d73c8a39"
-build_start_time: [1733469706, 826069000]
-build_end_time: [1733469707, 524296000]
+build_start_time: [1733500357, 393226000]
+build_end_time: [1733500360, 812186000]
 inputs:
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Alamofire.swift"
-  : [1733467759, 433941489]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/AFError.swift"
-  : [1733467759, 434220780]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/DataRequest.swift"
-  : [1733467759, 434425362]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/DataStreamRequest.swift"
-  : [1733467759, 434565028]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/DownloadRequest.swift"
-  : [1733467759, 434703819]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/HTTPHeaders.swift"
-  : [1733467759, 435060110]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/HTTPMethod.swift"
-  : [1733467759, 435252734]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/Notifications.swift"
-  : [1733467759, 435389609]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/ParameterEncoder.swift"
-  : [1733467759, 435555900]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/ParameterEncoding.swift"
-  : [1733467759, 435710649]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/Protected.swift"
-  : [1733467759, 435846649]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/Request.swift"
-  : [1733467759, 436020106]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/RequestTaskMap.swift"
-  : [1733467759, 436369147]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/Response.swift"
-  : [1733467759, 436499855]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/Session.swift"
-  : [1733467759, 436927311]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/SessionDelegate.swift"
-  : [1733467759, 437093894]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/URLConvertible+URLRequestConvertible.swift"
-  : [1733467759, 437273268]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/UploadRequest.swift"
-  : [1733467759, 437582975]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Core/WebSocketRequest.swift"
-  : [1733467759, 437752308]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/DispatchQueue+Alamofire.swift"
-  : [1733467759, 437947974]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/OperationQueue+Alamofire.swift"
-  : [1733467759, 438187098]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/Result+Alamofire.swift"
-  : [1733467759, 438338889]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/StringEncoding+Alamofire.swift"
-  : [1733467759, 438827512]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/URLRequest+Alamofire.swift"
-  : [1733467759, 438988845]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Extensions/URLSessionConfiguration+Alamofire.swift"
-  : [1733467759, 439167553]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/AlamofireExtended.swift"
-  : [1733467759, 439324052]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/AuthenticationInterceptor.swift"
-  : [1733467759, 439514801]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/CachedResponseHandler.swift"
-  : [1733467759, 439756092]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/Combine.swift"
-  : [1733467759, 439984633]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/Concurrency.swift"
-  : [1733467759, 440228049]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/EventMonitor.swift"
-  : [1733467759, 440443423]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/MultipartFormData.swift"
-  : [1733467759, 440630464]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/MultipartUpload.swift"
-  : [1733467759, 440998796]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/NetworkReachabilityManager.swift"
-  : [1733467759, 441195670]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/RedirectHandler.swift"
-  : [1733467759, 441336920]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/RequestCompression.swift"
-  : [1733467759, 441494169]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/RequestInterceptor.swift"
-  : [1733467759, 441676127]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/ResponseSerialization.swift"
-  : [1733467759, 441875251]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/RetryPolicy.swift"
-  : [1733467759, 442084292]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/ServerTrustEvaluation.swift"
-  : [1733467759, 442319166]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/URLEncodedFormEncoder.swift"
-  : [1733467759, 442556248]
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Alamofire/Source/Features/Validation.swift"
-  : [1733467759, 442809497]
   ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/Alamofire.build/Debug-iphoneos/Alamofire.build/DerivedSources/resource_bundle_accessor.swift"
   : [1733467519, 858128400]
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Alamofire.swift": [1733499968, 762006083]
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/AFError.swift": [1733499968, 762214501]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/DataRequest.swift"
+  : [1733499968, 762376752]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/DataStreamRequest.swift"
+  : [1733499968, 762470044]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/DownloadRequest.swift"
+  : [1733499968, 762561377]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/HTTPHeaders.swift"
+  : [1733499968, 762782420]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/HTTPMethod.swift"
+  : [1733499968, 762890254]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/Notifications.swift"
+  : [1733499968, 762998504]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/ParameterEncoder.swift"
+  : [1733499968, 763088713]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/ParameterEncoding.swift"
+  : [1733499968, 763284422]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/Protected.swift"
+  : [1733499968, 763389339]
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/Request.swift": [1733499968, 763721549]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/RequestTaskMap.swift"
+  : [1733499968, 763932217]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/Response.swift"
+  : [1733499968, 764095592]
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/Session.swift": [1733499968, 764668595]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/SessionDelegate.swift"
+  : [1733499968, 764803137]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/URLConvertible+URLRequestConvertible.swift"
+  : [1733499968, 764900262]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/UploadRequest.swift"
+  : [1733499968, 765035346]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Core/WebSocketRequest.swift"
+  : [1733499968, 765134430]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/DispatchQueue+Alamofire.swift"
+  : [1733499968, 765274972]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/OperationQueue+Alamofire.swift"
+  : [1733499968, 765449723]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/Result+Alamofire.swift"
+  : [1733499968, 765747266]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/StringEncoding+Alamofire.swift"
+  : [1733499968, 765873142]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/URLRequest+Alamofire.swift"
+  : [1733499968, 765960767]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Extensions/URLSessionConfiguration+Alamofire.swift"
+  : [1733499968, 766062351]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/AlamofireExtended.swift"
+  : [1733499968, 766182685]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/AuthenticationInterceptor.swift"
+  : [1733499968, 766288393]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/CachedResponseHandler.swift"
+  : [1733499968, 766417269]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/Combine.swift"
+  : [1733499968, 766539936]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/Concurrency.swift"
+  : [1733499968, 766695187]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/EventMonitor.swift"
+  : [1733499968, 766824271]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/MultipartFormData.swift"
+  : [1733499968, 766935146]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/MultipartUpload.swift"
+  : [1733499968, 767019438]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/NetworkReachabilityManager.swift"
+  : [1733499968, 767107855]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/RedirectHandler.swift"
+  : [1733499968, 767226356]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/RequestCompression.swift"
+  : [1733499968, 767333731]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/RequestInterceptor.swift"
+  : [1733499968, 767533107]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/ResponseSerialization.swift"
+  : [1733499968, 767624982]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/RetryPolicy.swift"
+  : [1733499968, 767733983]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/ServerTrustEvaluation.swift"
+  : [1733499968, 767885359]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/URLEncodedFormEncoder.swift"
+  : [1733499968, 768345444]
+  ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Alamofire/Source/Features/Validation.swift"
+  : [1733499968, 772467045]

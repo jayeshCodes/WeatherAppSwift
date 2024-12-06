@@ -1,4 +1,0 @@
-module SwiftSpinner {
-header "SwiftSpinner-Swift.h"
-export *
-}

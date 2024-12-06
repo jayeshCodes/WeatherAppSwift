@@ -19,10 +19,15 @@ struct ActivityGaugeChart: UIViewRepresentable {
         
         let options = HIOptions()
         
+        // Chart title
+        let title = HITitle()
+        title.text = "Weather Data"
+        options.title = title
+        
         // Chart configuration
         let chart = HIChart()
         chart.type = "solidgauge"
-        chart.height = "110%"
+        chart.height = "100%"
         options.chart = chart
         
         // Configure tooltip

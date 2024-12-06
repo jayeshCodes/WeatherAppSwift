@@ -1,9 +1,8 @@
 version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
 options: "ceddb9dfdd6fbb9d4df7a2214889a22637d90ad372a9aafe93c18e190edf5e0e"
-build_start_time: [1733467519, 908138000]
-build_end_time: [1733467524, 872878000]
+build_start_time: [1733500358, 45940000]
+build_end_time: [1733500360, 813612000]
 inputs:
-  ? "/Users/jayeshgajbhar/Library/Developer/Xcode/DerivedData/WeatherToday-dpqvhgkuicktaqgrcvlwedduwaet/SourcePackages/checkouts/Toast-Swift/Toast/Toast.swift"
-  : [1733467325, 525045997]
   ? "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/Index.noindex/Build/Intermediates.noindex/Toast.build/Debug-iphoneos/Toast.build/DerivedSources/resource_bundle_accessor.swift"
   : [1733467519, 854911996]
+  "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/DerivedData/WeatherToday/SourcePackages/checkouts/Toast-Swift/Toast/Toast.swift": [1733499968, 446768066]

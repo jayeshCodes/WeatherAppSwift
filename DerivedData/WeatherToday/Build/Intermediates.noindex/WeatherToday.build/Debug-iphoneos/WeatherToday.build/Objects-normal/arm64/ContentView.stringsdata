@@ -1,16 +1,5 @@
 {
   "source": "/Users/jayeshgajbhar/iOS_Apps/WeatherToday/WeatherToday/Views/ContentView.swift",
-  "tables": {
-    "Localizable": [
-      {
-        "comment": "",
-        "key": "fetching weather data",
-        "location": {
-          "startingColumn": 30,
-          "startingLine": 28
-        }
-      }
-    ]
-  },
+  "tables": {},
   "version": 1
 }

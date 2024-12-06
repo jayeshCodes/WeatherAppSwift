@@ -6,32 +6,32 @@
         "comment": "",
         "key": "TODAY",
         "location": {
-          "startingColumn": 31,
-          "startingLine": 28
+          "startingColumn": 38,
+          "startingLine": 38
         }
       },
       {
         "comment": "",
         "key": "WEEKLY",
         "location": {
-          "startingColumn": 31,
-          "startingLine": 34
+          "startingColumn": 34,
+          "startingLine": 52
         }
       },
       {
         "comment": "",
         "key": "WEATHER DATA",
         "location": {
-          "startingColumn": 31,
-          "startingLine": 40
+          "startingColumn": 38,
+          "startingLine": 64
         }
       },
       {
         "comment": "",
         "key": "Weather",
         "location": {
-          "startingColumn": 34,
-          "startingLine": 53
+          "startingColumn": 38,
+          "startingLine": 82
         }
       }
     ]

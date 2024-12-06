@@ -37,6 +37,24 @@ struct WeatherValues: Codable {
     let sunsetTime: String
     let visibility: Double
     let pressure: Double
+    let cloudCover: Double  // Added
+    let uvIndex: Double     // Added
+
+    enum CodingKeys: String, CodingKey {
+        case temperature
+        case temperatureMax
+        case temperatureMin
+        case humidity
+        case windSpeed
+        case precipitationProbability
+        case weatherCode
+        case sunriseTime
+        case sunsetTime
+        case visibility
+        case pressure
+        case cloudCover
+        case uvIndex
+    }
 }
 
 // Temperature Forecast Models

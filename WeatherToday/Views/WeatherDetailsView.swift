@@ -22,14 +22,14 @@ struct WeatherDetailsView: View {
     @ObservedObject var favoritesManager: FavoritesManager
     @Binding var showToast: Bool
     @Binding var toastMessage: String
-
+    
     var body: some View {
         ZStack {
             // Background Image Layer
-                    Image("App_background")
-                        .resizable()
-                        .scaledToFill()
-                        .edgesIgnoringSafeArea(.all)
+            Image("App_background")
+                .resizable()
+                .scaledToFill()
+                .edgesIgnoringSafeArea(.all)
             NavigationView {
                 TabView(selection: $selectedTab) {
                     TodayTabView(weather: weather)
@@ -43,7 +43,7 @@ struct WeatherDetailsView: View {
                         }
                         .tag(0)
                         .background(.ultraThinMaterial)
-
+                    
                     WeeklyTabView(
                         weather: weather, forecast15Day: forecast15Day
                     )
@@ -57,7 +57,7 @@ struct WeatherDetailsView: View {
                     }
                     .tag(1)
                     .background(.ultraThinMaterial)
-
+                    
                     WeatherDataTabView(weather: weather)
                         .tabItem {
                             Label {
@@ -83,7 +83,7 @@ struct WeatherDetailsView: View {
                             }
                         }
                     }
-
+                    
                     ToolbarItem(placement: .navigationBarTrailing) {
                         HStack {
                             Button(action: {
@@ -96,12 +96,16 @@ struct WeatherDetailsView: View {
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 24, height: 24)
                             }
-
+                            
                             Button(action: {
                                 shareToTwitter()
                             }) {
                                 Image("twitter")
+                                    .renderingMode(.template)
+                                    .foregroundColor(Color.accentColor) // This will match the system blue color used by the back button
+                                    .frame(width: 24, height: 24)
                             }
+                            .tint(.accentColor)
                         }
                     }
                 }
@@ -115,33 +119,33 @@ struct WeatherDetailsView: View {
             //            }
         }
     }
-
+    
     private var isFavorite: Bool {
         favoritesManager.favorites.contains { favorite in
             favorite.city == weather.location.city
-                && favorite.state == weather.location.state
+            && favorite.state == weather.location.state
         }
     }
-
+    
     private func toggleFavorite() {
         Task {
             SwiftSpinner.show("Updating favorites...")
-
+            
             let isFavorite = await favoritesManager.checkFavorite(
                 city: weather.location.city,
                 state: weather.location.state
             )
-
+            
             if isFavorite {
                 if let favorite = favoritesManager.favorites.first(where: {
                     $0.city == weather.location.city
-                        && $0.state == weather.location.state
+                    && $0.state == weather.location.state
                 }) {
                     let success = await favoritesManager.removeFavorite(
                         id: favorite.id)
                     if success {
                         toastMessage =
-                            "\(weather.location.city) removed from favorites"
+                        "\(weather.location.city) removed from favorites"
                         showToast = true
                     }
                 }
@@ -155,17 +159,17 @@ struct WeatherDetailsView: View {
                     showToast = true
                 }
             }
-
+            
             SwiftSpinner.hide()
         }
     }
-
+    
     private func shareToTwitter() {
         let text =
-            "Check out the weather in \(weather.location.city)! Temperature: \(Int(weather.timelines[0].values.temperature))°F, Conditions: \(getWeatherDescription(weather.timelines[0].values.weatherCode))"
+        "Check out the weather in \(weather.location.city)! Temperature: \(Int(weather.timelines[0].values.temperature))°F, Conditions: \(getWeatherDescription(weather.timelines[0].values.weatherCode))"
         let encodedText =
-            text.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
-            ?? ""
+        text.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+        ?? ""
         let twitterURL = URL(
             string: "https://twitter.com/intent/tweet?text=\(encodedText)")!
         UIApplication.shared.open(twitterURL)

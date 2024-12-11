@@ -22,21 +22,34 @@ struct WeatherContentView: View {
                 Button(action: {
                     showingDetails = true
                 }) {
-                    VStack(alignment: .leading, spacing: 4) {
-                        HStack(alignment: .top) {
-                            Image(systemName: getWeatherIconName(weather.timelines[0].values.weatherCode))
-                                .font(.title)
+                    HStack(spacing: 0) {
+                        // Weather Icon Section (1/3 of space)
+                        Image(systemName: getWeatherIconName(weather.timelines[0].values.weatherCode))
+                            .font(.system(size: 60))
+                            .foregroundColor(.white)
+                            .frame(width: UIScreen.main.bounds.width * 0.25)
+                        
+                        // Weather Details Section (2/3 of space)
+                        VStack(alignment: .leading, spacing: 4) {
                             Text("\(Int(weather.timelines[0].values.temperature))°F")
-                                .font(.system(size: 40))
+                                .font(.system(size: 32, weight: .medium))
+                                .foregroundColor(.white)
+                            
+                            Text(getWeatherDescription(weather.timelines[0].values.weatherCode))
+                                .font(.system(size: 20))
+                                .foregroundColor(.white)
+                            
+                            Text(weather.location.city)
+                                .font(.system(size: 24))
+                                .foregroundColor(.white)
                         }
-                        Text(getWeatherDescription(weather.timelines[0].values.weatherCode))
-                            .font(.title3)
-                        Text(weather.location.city)
-                            .font(.title2)
+                        .padding(.leading, 8)
+                        
+                        Spacer()
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxWidth: .infinity)
                     .padding()
-                    .background(.ultraThinMaterial)
+                    .background(Color.black.opacity(0.3))
                     .cornerRadius(12)
                     .padding(.horizontal)
                 }

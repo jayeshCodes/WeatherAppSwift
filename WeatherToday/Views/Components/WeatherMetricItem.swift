@@ -16,10 +16,13 @@ struct WeatherMetricItem: View {
         VStack(spacing: 4) {
             Image(systemName: icon)
                 .font(.title3)
+                .foregroundColor(.white)
             Text(value)
                 .font(.system(size: 14))
+                .foregroundColor(.white)
             Text(label)
                 .font(.system(size: 12))
+                .foregroundColor(.white)
         }
         .frame(maxWidth: .infinity)
     }

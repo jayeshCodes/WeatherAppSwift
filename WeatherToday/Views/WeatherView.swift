@@ -170,6 +170,7 @@ struct WeatherView: View {
                         }
                     }
                     .frame(height: 44)
+                    .colorScheme(.dark)
 
                     // Predictions List
                     if showPredictions && !predictions.isEmpty {

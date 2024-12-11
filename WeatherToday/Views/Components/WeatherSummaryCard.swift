@@ -14,12 +14,15 @@ struct WeatherSummaryCard: View {
         HStack(spacing: 20) {
             Image(systemName: getWeatherIconName(weather.timelines[0].values.weatherCode))
                 .font(.system(size: 40))
+                .foregroundColor(.white)
             
             VStack(alignment: .leading, spacing: 4) {
                 Text(getWeatherDescription(weather.timelines[0].values.weatherCode))
                     .font(.title3)
+                    .foregroundColor(.white)
                 Text("\(Int(weather.timelines[0].values.temperature))°F")
                     .font(.title)
+                    .foregroundColor(.white)
             }
             
             Spacer()

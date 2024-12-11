@@ -25,10 +25,12 @@ struct DayForecastRow: View {
             // Date
             Text(formatDate(timeline.time))
                 .frame(width: 100, alignment: .leading)
+                .foregroundColor(.white)
             
             // Weather icon
             Image(systemName: getWeatherIconName(timeline.values.weatherCode))
                 .frame(width: 30)
+                .foregroundColor(.white)
             
             Spacer()
             
@@ -37,16 +39,20 @@ struct DayForecastRow: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 20, height: 20)
+                .foregroundColor(.white)
             Text(formatTimeOnly(timeline.values.sunriseTime))
                 .frame(width: 50)
+                .foregroundColor(.white)
             
             // Sunset info
             Image("sun-set")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 20, height: 20)
+                .foregroundColor(.white)
             Text(formatTimeOnly(timeline.values.sunsetTime))
                 .frame(width: 50)
+                .foregroundColor(.white)
         }
         .padding(.vertical, 8)
         .padding(.horizontal)
